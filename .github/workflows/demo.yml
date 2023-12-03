@@ -7,7 +7,7 @@ on:
 
 jobs:
   delete-clean-workspaces:
-    name: Deploy nightly
+    name: Clean Gitpod workspaces weekly
     runs-on: ubuntu-latest
     steps:
       - name: Delete clean Gitpod workspaces
