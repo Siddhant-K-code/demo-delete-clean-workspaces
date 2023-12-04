@@ -14,3 +14,4 @@ jobs:
         uses: Siddhant-K-code/delete-clean-workspaces@v1.0
         with:
           GITPOD_TOKEN: ${{ secrets.GITPOD_PAT_TOKEN }}
+          PRINT_SUMMARY: false
